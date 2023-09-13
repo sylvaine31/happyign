@@ -1,0 +1,14 @@
+Package: happyign
+Title: Requete de l API IGN 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Goix", "Sylvaine", , "sylvaine.goix@hotmail.fr", role = c("aut", "cre"))
+Description: Le package happyign permet de requeter facilement l API de l IGN pour le calcul des isochrones et ou des isodistances. 
+License: MIT + file LICENSE
+Language: fr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    sf,
+    httr
